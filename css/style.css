@@ -70,13 +70,13 @@ table th {
     font-weight: bold;
 }
 
-.gallery section {
+.gallery article {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
 }
 
-.gallery section img {
+.gallery article img {
     height: 500px;
     margin: 10px; 
 }
