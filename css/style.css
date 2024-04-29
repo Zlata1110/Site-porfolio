@@ -53,6 +53,7 @@ main {
 
 .inf h2 {
     font-size: 25px;
+    font-weight: normal;
     text-align: justify;
 }
 
@@ -114,27 +115,25 @@ footer {
 
 @media (max-width: 770px) {
 
-    .table,
-    .inf {
+    .table, .inf {
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
     h1 {
         margin: 35px 0px 20px 3%;
-        ;
     }
 
     .nav {
         flex-direction: column;
     }
 
-    .nav p {
+    .nav h2 {
         margin: 5px 20px 5px 0px;
         text-align: center;
     }
 
-    .gallery article img {
+    .gallery section img {
         width: 90%;
         height: auto;
     }
